@@ -4,3 +4,12 @@ git remote
 git remote -v
 
 git push origin master
+
+
+git checkout -b development
+git commit -a -m "comment here"
+
+git checkout master
+git pull . development
+
+git branch -d development
