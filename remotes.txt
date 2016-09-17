@@ -34,4 +34,7 @@ git config --global push.default simple
 git config --global user.name
 git config --global user.email
 git clone https://github.com/kevchin/gittips.git
-git commit
+# make changes
+git status
+git commit -a -m "more changes"
+git push
