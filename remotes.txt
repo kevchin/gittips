@@ -18,3 +18,12 @@ http://ccn.ucla.edu/wiki/index.php/Setting_Up_and_Using_Git#Using_Public.2FPriva
 
 ssh -T git@github.com
 git clone https://github.com/gjreda/pydata2014nyc
+
+----------------
+Example: 
+
+git clone git://github.com/kevchin/gittips.git
+git add .
+emacs remotes.txt
+git commit -m "sample commit"
+git push
